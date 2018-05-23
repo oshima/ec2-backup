@@ -7,7 +7,7 @@ Create following resources at the region you are using.
 ### [Lambda function] ec2-backup-root
 
 This function filters instances required to back up at the time.  
-And then invoke `ec2-backup-local` function for each EBS volume attached to instances.
+And then invoke `ec2-backup-local` for each EBS volume attached to instances.
 
 - **Runtime**
 
